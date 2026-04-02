@@ -133,7 +133,8 @@
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
-  margin: 0 0 1rem 0;
+  margin: 0 auto 1rem auto;
+  width: 100%;
 }
 
 .cta-panel {
@@ -163,13 +164,15 @@
 }
 
 .feature-grid-2up article {
-  flex: 0 1 340px;
+  flex: 1 1 0;
   max-width: 380px;
   min-width: 260px;
+  min-height: 340px;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: stretch;
 }
 
 /* Together box spans both columns below */
@@ -340,7 +343,7 @@ a {
 }
 
 .eyebrow {
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 1.5rem 0 3rem 0;
   color: var(--rust);
   font-size: 0.943rem;
   font-weight: 700;
@@ -547,13 +550,25 @@ h3 {
   left: 0;
 }
 
-.card-grid,
-.feature-grid,
-.detail-card {
+/* Card grid for program pathways: 2 rows of 3 cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.program-card {
   background: linear-gradient(180deg, #e6ebdf, #d9e0d0);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .stat-panel,
 .feature-grid article {
@@ -570,7 +585,20 @@ h3 {
 }
 
 .audience-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.audience-card {
+  background: linear-gradient(180deg, #e6ebdf, #d9e0d0);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .quote-grid {
@@ -580,7 +608,27 @@ h3 {
 }
 
 .detail-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+/* Special layout for 5 cards: 3 on top, 2 centered below */
+/* Center the two lower boxes under the three upper boxes */
+.detail-grid > .detail-card:nth-child(4) {
+  grid-column: 2 / 3;
+}
+.detail-grid > .detail-card:nth-child(5) {
+  grid-column: 3 / 4;
+}
+
+@media (max-width: 900px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+  .detail-grid > .detail-card {
+    grid-column: auto !important;
+  }
 }
 
 .events-grid {
