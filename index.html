@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(example change, remove this) NC Innovation Institute</title>
+    <meta
+      name="description"
+      content="A first-pass website for the NC Innovation Institute with a landing page and program section pages."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="./index.html">
+          <span class="brand-mark">NCII</span>
+          <span class="brand-text">NC Innovation Institute</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a href="./pages/convenings.html">Convenings</a>
+          <a href="./pages/learning-labs.html">Learning Labs</a>
+          <a href="./pages/fellowships.html">Fellowships</a>
+          <a href="./pages/inspiration-visits.html">Inspiration Visits</a>
+          <a href="./pages/network.html">Network</a>
+          <a href="./pages/design-journeys.html">Design Journeys</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">North Carolina education innovation</p>
+            <h1>North Carolina's public schools deserve better. <br><span class="accent">So do the leaders running them.</span></h1>
+            <p class="hero-text">
+              North Carolina has set a goal: the best public education system in the nation by
+              2030. Achieving that vision will take more than incremental improvement—it will take investing in and supporting the leadership already driving this work forward.
+            </p>
+            <p class="hero-text">
+              District leadership has never been more consequential or more complex. AI is opening
+              new possibilities for how students learn. Families are demanding more from their
+              schools. And underneath the daily demands of the job is the reason most of you got
+              into this work: a genuine belief that public education can do more for kids than it
+              currently does.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#programs">Explore the program</a>
+              <a class="button button-secondary" href="#audience">Who this is for</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="shape shape-sand"></div>
+            <div class="shape shape-rust"></div>
+            <div class="shape shape-ink"></div>
+            <div class="hero-card">
+              <p class="hero-card-label">Built for redesign</p>
+              <ul>
+                <li>Space to step back and think differently</li>
+                <li>Skills, relationships, and new knowledge for real change</li>
+                <li>Support, peers, and infrastructure for NC leaders</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Large feature image: Kids in playyard -->
+        <img src="Images/Kids_Playyard.png" alt="Children playing and learning in an outdoor playyard environment" class="homepage-feature-image" />
+        <p class="image-caption">LEAD (Leaders of Excellence, Advocacy and Discovery)</p>
+
+        <section id="overview" class="section section-soft">
+          <div class="section-heading">
+            <p class="eyebrow">The Institute</p>
+            <h2 class="section-header-wide">Action-oriented, modular, and built for leaders<br>who are serious about innovation.</h2>
+          </div>
+          <div class="two-column">
+            <div class="copy-block">
+              <p>
+                North Carolina leaders are already proving better public education is possible. The
+                question is how to accelerate it.
+              </p>
+              <p>
+                What district leaders need, and rarely get, is space to step back, think
+                differently, and build the skills, relationships, and new knowledge that real redesign
+                requires. That is what this Institute is built to provide.
+              </p>
+              <p>
+                The NC Education Innovation Leadership Institute is a statewide initiative,
+                co-stewarded by The Innovation Project and Transcend, built for North Carolina
+                leaders who are serious about redesigning public education, not someday, but now.
+              </p>
+              <p>
+                This is not a traditional leadership program. It is designed around a simple
+                conviction: the leaders closest to students are the ones who will transform public
+                education if we give them the right support, the right peers, and the right
+                infrastructure.
+              </p>
+            </div>
+            <aside class="stat-panel">
+              <h3>The Institute Offers</h3>
+              <ul>
+                <li>Space to step back, reflect, and thoughtfully chart a path forward.</li>
+                <li>Practical, hands-on support to advance design work in your district.</li>
+                <li>Relationships and a peer network that make ambitious change possible.</li>
+              </ul>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="image-row">
+            <div class="full-width-photo">
+              <img src="Images/Adults.png" alt="Adult leaders in discussion" class="full-width-image" />
+              <p class="image-caption">Leadership work that depends on trust, reflection, and shared problem-solving.</p>
+            </div>
+            <div class="full-width-photo">
+              <img src="Images/Valor.png" alt="Learning environments" class="full-width-image" />
+              <p class="image-caption">Learning environments that make collaboration, agency, and relevance visible.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="audience" class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Who this is for</p>
+          </div>
+          <h2 class="section-header-wide">Leaders who know vision without skillful execution is just a plan on paper.</h2>
+          <div class="audience-grid">
+            <article class="audience-card">
+              <h3>Superintendents</h3>
+              <p>Ready to transform their systems to spark outstanding outcomes and experiences for all kids.</p>
+            </article>
+            <article class="audience-card">
+              <h3>Senior cabinet leaders</h3>
+              <p>Eager to lead teams to breakthrough results for learners and their communities.</p>
+            </article>
+            <article class="audience-card">
+              <h3>Board members and chairs</h3>
+              <p>Who want to govern in ways that enable transformation.</p>
+            </article>
+            <article class="audience-card">
+              <h3>State leaders and funders</h3>
+                <p>Who know that bold visions need an infrastructure of innovation to succeed.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="programs" class="section">
+          <div class="section-heading">
+            <p class="eyebrow">What the Institute offers</p>
+          </div>
+          <h2 class="section-header-wide">Six connected pathways into sustained redesign work.</h2>
+          <div class="card-grid">
+            <a class="program-card accent-sand" href="./pages/convenings.html">
+              <h3>Convenings</h3>
+              <p>
+                Hands-on working experiences, not conferences. Three or four times a year, leaders
+                come together to work on real problems and leave with tools, sharper diagnosis, and
+                concrete next steps.
+              </p>
+              <span>See upcoming convenings</span>
+            </a>
+            <a class="program-card accent-rust" href="./pages/fellowships.html">
+              <h3>Fellowships</h3>
+              <p>
+                Nine months of sustained, peer-based leadership development across role-alike
+                cohorts for superintendents, senior cabinet leaders, and board chairs.
+              </p>
+              <span>Explore the fellowship tracks</span>
+            </a>
+            <a class="program-card accent-sage" href="./pages/learning-labs.html">
+              <h3>Learning Labs</h3>
+              <p>
+                Practical, applied learning built around real problems, from community-based design
+                to AI leadership, governance, and more.
+              </p>
+              <span>Browse all courses</span>
+            </a>
+            <a class="program-card accent-blue" href="./pages/inspiration-visits.html">
+              <h3>Inspiration Visits</h3>
+              <p>
+                See what is possible. Change what you think is inevitable. Visits are built around
+                a clear learning purpose, not just a site visit.
+              </p>
+              <span>See all upcoming study tours</span>
+            </a>
+            <a class="program-card accent-ink" href="./pages/network.html">
+              <h3>Network</h3>
+              <p>
+                An ongoing statewide community of NC leaders sharing challenges, exchanging
+                resources, and holding each other accountable, including access to vetted partners.
+              </p>
+              <span>Learn about the network</span>
+            </a>
+            <a class="program-card accent-gold" href="./pages/design-journeys.html">
+              <h3>Design Journeys</h3>
+              <p>
+                The ongoing, community-rooted work of translating aspiration into changed learning
+                experiences for students, schools, and districts.
+              </p>
+              <span>Learn how design journeys work</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="section section-band">
+          <div class="section-heading">
+            <p class="eyebrow">Why this partnership</p>
+          </div>
+          <h2 class="section-header-wide">Local credibility and national depth.</h2>
+          <div class="feature-grid feature-grid-2up">
+            <article>
+              <img src="Images/TIP.jpeg" alt="The Innovation Project logo" class="feature-logo" />
+              <p>
+                The Innovation Project brings North Carolina context, trusted relationships, and deep knowledge of the state's districts, communities, and politics.
+              </p>
+            </article>
+            <article>
+              <img src="Images/Transcend.png" alt="Transcend logo" class="feature-logo" />
+              <p>
+                Transcend brings national expertise in school design, innovative models, research, and a track record of transformative leadership development across hundreds of schools and systems.
+              </p>
+            </article>
+          </div>
+          <div class="feature-together">
+            <h3>Together</h3>
+            <p>
+              They create a practical pathway from inspiration to implementation for leaders who
+              want to redesign public education now.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="eyebrow">What leaders are saying</p>
+          </div>
+          <h2 class="section-header-wide">Leadership investment as a lever for durable transformation.</h2>
+          <div class="quote-grid">
+            <article class="quote-card">
+              <p class="quote">
+                "This Institute is one of the bigger bets I would make to revitalize the effort to
+                transform schools across the U.S."
+              </p>
+              <p class="quote-attribution">Wendy Kopp, Founder, Teach For America</p>
+            </article>
+            <article class="quote-card">
+              <p class="quote">
+                "At a time when education leaders face unprecedented challenges, this kind of
+                investment in leadership is exactly what we need."
+              </p>
+              <p class="quote-attribution">
+                Melissa Harris, Former Deputy Superintendent, DeKalb County Schools
+              </p>
+            </article>
+            <article class="quote-card">
+              <p class="quote">
+                "Investing in this Institute is a sure bet to produce systemic and sustainable
+                organizational transformation."
+              </p>
+              <p class="quote-attribution">
+                Tom Rooney, Former Superintendent, Lindsay Unified School District
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section cta-section">
+          <p class="eyebrow" style="text-align:center;">Ready to get started?</p>
+          <div class="cta-panel">
+            <h2 class="cta-header">Let's Do This</h2>
+            <p class="cta-copy">
+              The Institute works best when participants are fully invested.
+            </p>
+            <div class="hero-actions cta-actions-row">
+              <a class="button button-sand" href="mailto:institute@ncinnovationproject.org?subject=NC%20Education%20Innovation%20Leadership%20Institute%20Inquiry">Apply now</a>
+              <a class="button button-rust" href="./pages/convenings.html">See what's coming up</a>
+              <a class="button button-ink" href="mailto:institute@ncinnovationproject.org">Get in touch</a>
+            </div>
+            <p class="contact-line">
+              Questions?
+              <a href="mailto:institute@ncinnovationproject.org">institute@ncinnovationproject.org</a>
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>MOCK UP: NC Innovation Institute</p>
+        <p>Co-stewarded by The Innovation Project and Transcend.</p>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
