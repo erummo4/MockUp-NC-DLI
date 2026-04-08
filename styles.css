@@ -520,11 +520,13 @@ h3 {
   gap: 1.5rem;
 }
 
+  
+  
 .stat-panel,
 .detail-card,
 .feature-grid article {
   padding: 1.5rem;
-  background: var(--surface);
+  background: linear-gradient(180deg, #dde7ee, #c7d8e3);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow);
