@@ -1,0 +1,16 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="44" stroke="#aeb79f" stroke-width="4" fill="#dde7ee"/>
+  <circle cx="60" cy="16" r="8" fill="#bc6f51" stroke="#fffaf3" stroke-width="3"/>
+  <circle cx="104" cy="60" r="8" fill="#d7a44c" stroke="#fffaf3" stroke-width="3"/>
+  <circle cx="60" cy="104" r="8" fill="#7b9db4" stroke="#fffaf3" stroke-width="3"/>
+  <circle cx="16" cy="60" r="8" fill="#aeb79f" stroke="#fffaf3" stroke-width="3"/>
+  <circle cx="60" cy="60" r="14" fill="#fffaf3" stroke="#27423f" stroke-width="3"/>
+  <line x1="60" y1="30" x2="60" y2="46" stroke="#aeb79f" stroke-width="3"/>
+  <line x1="90" y1="60" x2="74" y2="60" stroke="#aeb79f" stroke-width="3"/>
+  <line x1="60" y1="90" x2="60" y2="74" stroke="#aeb79f" stroke-width="3"/>
+  <line x1="30" y1="60" x2="46" y2="60" stroke="#aeb79f" stroke-width="3"/>
+  <line x1="67.9" y1="52.1" x2="83.5" y2="36.5" stroke="#aeb79f" stroke-width="2"/>
+  <line x1="52.1" y1="52.1" x2="36.5" y2="36.5" stroke="#aeb79f" stroke-width="2"/>
+  <line x1="67.9" y1="67.9" x2="83.5" y2="83.5" stroke="#aeb79f" stroke-width="2"/>
+  <line x1="52.1" y1="67.9" x2="36.5" y2="83.5" stroke="#aeb79f" stroke-width="2"/>
+</svg>
